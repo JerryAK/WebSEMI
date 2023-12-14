@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <a href="{{ path('list_product') }}" class="btn btn-default">Back to ProductList</a>
+    <hr/>
+    <h2 class="page-header">{{ products.ProductName }}</h2>
+
+{#    <p>{{ products.description }}</p>#}
+{% endblock %}
